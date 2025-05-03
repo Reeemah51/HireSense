@@ -20,7 +20,7 @@ def get_base64_image(image_path):
     with open(image_path, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
-svg_b64 = get_base64_image(r"C:\Users\Administrator\Desktop\HireSense2\img\Group289360.svg")
+svg_b64 = get_base64_image("img/Group289360.svg")
 
 # — 3) Global CSS
 st.markdown("""
