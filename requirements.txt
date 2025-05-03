@@ -9,3 +9,5 @@ transformers
 together
 uuid
 werkzeug
+streamlit==1.20.0
+streamlit_extras==0.2.7
